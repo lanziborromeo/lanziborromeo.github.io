@@ -1,24 +1,25 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a landing page and blog for Lanzi Borromeo's personal site.
 
-Things you may want to cover:
+This application is deployed via Heroku.
 
-* Ruby version
+### Deploying the application to Heroku
 
-* System dependencies
+In the directory where the application is run the following
+```shell
+ $ heroku create
+```
 
-* Configuration
+Note: This just needs to be ran once.
 
-* Database creation
+Make any changes you want to do in the application. Once these changes are done
+push it back up to heroku so that its available to the public.
 
-* Database initialization
+Deploy your code:
+```shell
+ $ git push heroku master
+```
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+You go to [Heroku's DevCenter](https://devcenter.heroku.com/articles/getting-started-with-rails5) for more information about getting stared with
+Rails and Heroku
