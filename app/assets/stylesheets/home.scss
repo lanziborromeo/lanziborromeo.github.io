@@ -3,9 +3,26 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .home-bg {
-  background: image-url('home-bg.jpg');
+  margin-top: 100px;
+  background: image-url('home-banner.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-size: 100%;
+
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .about-bg {
   background: image-url('about-bg.jpg');
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: grey;
+}
+
+.navbar-default .navbar-brand {
+    color: #d6d6d6;
 }
